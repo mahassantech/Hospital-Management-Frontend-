@@ -1,0 +1,42 @@
+body{
+    /* width: 1200px; */
+    /* border: 1px solid gray; */
+    margin: auto;
+    background-color: rgb(236, 236, 236);
+}
+li{
+    list-style: none;
+    
+}
+.menu{
+    font-size: 20px;
+}
+.menu:hover{
+    color: white;
+    cursor: pointer;
+
+}
+.banner-container{
+    width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+.banner{
+    height: 450px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(130, 175, 175),rgb(42, 211, 211));;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+.bn-img{
+    width: 325px;
+    margin-top: -55px;
+}
+.left-text{
+    color: #2B6977;
+    font-size: 50px;
+}
